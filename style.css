@@ -4,6 +4,10 @@
         background-color: red;
     }
 
+    div.small {
+        font-size: 30px;
+    }
+
     div.medium {
         display: none;
     }
@@ -20,10 +24,16 @@
         background-color: green;
     }
 
-    div.large {
+
+    div.small {
         display: none;
     }
-    div.small {
+
+    div.medium {
+        font-size: 50px;
+    }
+
+    div.large {
         display: none;
     }
 }
@@ -34,11 +44,16 @@
         background-color: navy;
     }
 
+    div.small {
+        display: none;
+    }
+
     div.medium {
         display: none;
     }
 
-    div.small {
-        display: none;
+
+    div.large { font-size: 80px;
+        
     }
 }
