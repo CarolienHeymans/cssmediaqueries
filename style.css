@@ -3,19 +3,42 @@
     body {
         background-color: red;
     }
+
+    div.medium {
+        display: none;
+    }
+
+    div.large {
+        display: none;
+    }
 }
 
 /*300px en lager dan 768px groen*/
-@media only screen and (min-width: 300px) and (max-width: 768px) 
-{
+@media only screen and (min-width: 300px) and (max-width: 768px) {
 
     body {
-        background-color: green;}
+        background-color: green;
+    }
+
+    div.large {
+        display: none;
+    }
+    div.small {
+        display: none;
+    }
 }
 
 /* > 768 px.blauw*/
 @media only screen and (min-width: 768px) {
     body {
         background-color: navy;
+    }
+
+    div.medium {
+        display: none;
+    }
+
+    div.small {
+        display: none;
     }
 }
