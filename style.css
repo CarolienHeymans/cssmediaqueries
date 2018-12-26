@@ -111,7 +111,7 @@ nav a
 {
     font-size: 1.3em;
     color: #181818;
-    padding-bottom: 3px;
+   
     text-decoration: none;
 }
 
@@ -298,11 +298,14 @@ footer h1
     body {
         display: flex;
         flex-wrap: wrap;
+        padding: 0%;
     }
     header {
         flex-direction: column;
         width: auto;
-        align-content: justify;
+        align-items: flex-end;
+        padding: 0%;
+        margin: 0%;
     }
     #banniere_image { 
         display: none; 
@@ -322,5 +325,37 @@ footer h1
         flex-direction: row;
         width: auto;
     }
+    .menu {
+        display: block;
+        height: 40px;
+        width: 100%;
+        background:url(images/menu.png) no-repeat 98% center;
+        background-color:#706b64;
+        cursor: pointer;
+    }
+    header nav ul {
+        overflow: hidden;
+        background-color:#9e988e;
+        height:0px;
+        padding: 0%;
+        flex-direction: column;
+    }
+    header nav ul.open {
+        height:auto;
+    }
+    header nav ul li{
+        width: 100%;
+        
+       }
+
+        header nav ul li a {
+            font-size: 20px;
+            color: antiquewhite;
+            padding-top: 10px;
+            border-bottom:1px solid #1c1a19;
+            display: block;
+            margin-left: 3px;
+        }
+
 }
   
